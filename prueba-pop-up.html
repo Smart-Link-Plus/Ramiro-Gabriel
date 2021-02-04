@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/estilo-modal.css">
+
+
+
+
+
+<style>
+
+
+
+
+</style>
+</head>
+
+
+
+
+
+
+<body>
+
+
+
+<!-- Trigger/Open The Modal -->
+<div id="myBtn"><img src="img/llamar.svg" width="40" height="40"><p>LLAMAR</p></div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h3>¿QUIERES LLAMAR AHORA?</h3>
+    </div>
+    <div class="contenedor-numero">
+
+      <div class="img-telefono"><img src="img/llamar.svg" width="50" height="50"></div>
+      <div class="numero-cel"><p>3222945157</p></div>
+
+    </div>
+    <div class="modal-footer">
+
+     <a href="tel:1789582"><p>LLAMAR</p></a> 
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
