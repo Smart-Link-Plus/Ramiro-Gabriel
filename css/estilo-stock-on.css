@@ -146,7 +146,6 @@ body {
 	}
 
 
-
 } 
 
 
@@ -175,7 +174,6 @@ body {
 		width: 100%;
 	}
 
-	
 
 }
 
@@ -220,46 +218,302 @@ body {
 .titulo-productos {
 	text-align: center;
 	padding-top: 110px;
+	padding-bottom: 20px;
 
 }
 
-.contenedor-codigo-qr {
+
+
+
+
+/* Video */
+
+
+.video-stock-on  {
+
+	margin: 10px;
+	margin-top: 30px;
+	clear: both;
+	width: 360px;
+	margin: 50px auto 0;
 	
-	
+
 }
 
-.codigo-qr {
-	text-align: center;
-
-	width: 280px;
-	height: 280px;
-	background-color: white;
+.video-stock-on > video {
 	border-radius: 20px;
 	box-shadow: 0px 0px 2px 1px #C6C5C5;
-	margin: 0 auto 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.informacion-extra-producto {
+	padding-top: 30px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.informacion-extra-producto > p {
+	clear: both;
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+
+.info-extra-1 {
+	padding: 10px;
+}
+
+.info-extra-1 >h3 {
+	padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+/*  Info redes y web  */
+
+
+
+.contenedor-info-redes- {
+	clear: both;
+	padding-top: 30px;
 
 }
 
-.codigo-qr > img {
+.link-fb {
+	height: 70px;
+	
+	background-color: white;
+	border-radius: 20px;
+	margin: 10px;
+	
+}
+
+.link-fb > img {
+	float: left;
+	margin-left: 30px;
 	margin-top: 10px;
 }
 
+.link-fb > a {
+	float: left;
+	color: black;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 10px;
 
 
 
-
-
-
-
-.nombre-usuario {
-	text-align: center;
-	margin-top: 20px;
 }
 
-.nombre-usuario > p {
-	font-size: 12px;
-	margin-bottom: 10px;
+.usuario-fb > a {
+	float: left;
+	color: black;
+	text-decoration: none;
+	margin-top: 27px;
+	margin-left: 5px;
+
 }
+
+
+
+.ver-fb {
+	float: right;
+	margin-top: 24px;
+	margin-right: 25px;
+
+}	
+
+
+
+
+
+
+.link-insta {
+	
+	height: 70px;
+	background-color: white;
+	border-radius: 20px; 
+	margin: 10px;
+}
+
+.usuario-insta > a {
+	float: left;
+	color: black;
+	text-decoration: none;
+	margin-top: 27px;
+	margin-left: 5px;
+
+}
+
+.link-insta > a {
+	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
+	color: black;
+	text-decoration: none;
+
+}	
+
+
+
+
+
+
+.ver-insta   {
+	float: right;
+	margin-top: 24px;
+	margin-right: 20px;
+	/* margin-bottom: 25px;  Revisar el margin afecta al pie de pagina  */
+	
+}
+
+
+
+
+
+.link-you {
+	height: 70px;
+	
+	background-color: white;
+	border-radius: 20px;
+	margin: 10px;
+}
+
+
+.usuario-you > a {
+	float: left;
+	color: black;
+	text-decoration: none;
+	margin-top: 27px;
+	margin-left: 5px;
+
+}
+
+.link-you > a {
+	float: left;
+	margin-top: 12px;
+	margin-left: 20px;
+	color: black;
+	text-decoration: none;
+
+}	
+
+.link-you > img {
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.link-you > p {
+	float: left;
+	margin-top: 28px;
+	margin-left: 15px;
+
+
+}
+
+.ver-you {
+	float: right;
+	margin-top: 24px;
+	margin-right: 25px;
+
+}	
+
+
+
+
+
+.link-web {
+	height: 70px;
+	;
+	background-color: white;
+	border-radius: 20px;
+	margin-bottom: 50px;
+	margin: 10px;
+}
+
+
+.usuario-web > a {
+	float: left;
+	color: black;
+	text-decoration: none;
+	margin-top: 27px;
+	margin-left: 5px;
+	font-size: 14px;
+
+}
+
+
+
+.link-web > a {
+	float: left;
+	margin-top: 12px;
+	margin-left: 20px;
+	color: black;
+	text-decoration: none;
+	
+
+}	
+
+.link-web > img {
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.link-web > p {
+	float: left;
+	margin-top: 28px;
+	margin-left: 15px;
+
+
+
+}
+
+.ver-web {
+	float: right;
+	margin-top: 24px;
+	margin-right: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

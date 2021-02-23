@@ -76,88 +76,7 @@
 	}
 
 
-	.info-size-lg {
-		/* width: 40%;
-		margin-left: 30%; */
-	}
 
-	.cabecera-size-lg {
-		
-		margin-left: 36%;
-	}
-
-	/* Info redes web tamaño escritorio   */
-
-	/*
-	.link-fb  {
-		margin-right:  10px;
-		margin-bottom: 20px;
-	}
-
-	.link-insta {
-		margin-left: 10px;
-		margin-bottom: 20px;
-	}
-
-
-
-	.fb {
-	
-	width: 50%;
-	float: left;
-	
-	}
-
-	.insta {
-	width: 50%;
-	float: right;
-	}
-
-	.link-fb {
-	float: right;
-	}
-
-
-	.link-insta {
-		float: left;
-	}
-
-
-
-
-	.link-you  {
-		margin-right:  10px;
-	}
-
-	.link-web {
-		margin-left: 10px;
-	}
-
-
-
-	.you {
-	
-	width: 50%;
-	float: left;
-	
-	}
-
-	.web {
-	width: 50%;
-	float: right;
-	}
-
-	.link-you {
-	float: right;
-	}
-
-
-	.link-web {
-		float: left;
-	}
-
-
-*/
 
 }
  
@@ -223,45 +142,8 @@
 
 
 
-	.info-size-md {
-		/* width: 100%; */
-	}
 
 
-	.cabecera-size-md {
-		
-		margin-left: 33%;
-	}
-
-
-
-/* Info redes web tamaño escritorio   */
-
-
-/*
-	.link-fb  {
-		clear: both;
-		margin-left: 28%;
-		margin-bottom: 20px;
-	}
-
-	.link-insta {
-		margin-left: 28%;
-		margin-bottom: 20px;
-	}
-
-
-	.link-you  {
-		clear: both;
-		margin-left: 28%;
-		margin-bottom: 20px;
-	}
-
-	.link-web {
-		margin-left: 28%;
-	}
-
-	*/
 
 
 
@@ -282,56 +164,7 @@
 	}
 
 
-/*
 
-	.fb {
-	clear: both;
-
-	margin-bottom: 20px;
-	
-	
-	}
-
-	.insta {
-	
-	clear: both;
-	margin-bottom: 20px;
-
-	}
-
-	.link-fb {
-		margin-left: 6%;
-	}
-
-	.link-insta {
-		margin-left: 6%;
-	}
-
-
-
-	.you {
-	clear: both;
-
-	margin-bottom: 20px;
-	
-	
-	}
-
-	.web {
-	
-	clear: both;
-
-	}
-
-	.link-you {
-		margin-left: 6%;
-	}
-
-	.link-web {
-		margin-left: 6%;
-	}
-
-*/
 
 
 /* Agrupacion de menu flotante de funciones: llamar, wapp, cita y guardar   */
@@ -381,13 +214,17 @@
 	box-shadow: 0px 0px 2px 1px #C6C5C5;
 
 
+
 	
 
 }
 
 .cabecera {
 	position: relative;
-	height: 100px;
+	width: 270px;
+
+	margin: 0 auto 0;
+
 
 	
 }
@@ -781,11 +618,12 @@
 /* Compartir con QR  */
 
 .link-compartir-qr {
-	
+	width: 380px;
 	height: 70px;
 	background-color: white;
 	border-radius: 20px; 
-	margin: 10px;
+	margin: 10px auto 0;
+	
 }
 
 .usuario-compartir-qr > a {
@@ -818,6 +656,7 @@
 
 .compartir-qr {
 	margin-bottom: 30px;
+	clear: both;
 }
 
 

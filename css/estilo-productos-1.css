@@ -286,6 +286,68 @@ body {
 
 
 
+/* Foody */
+
+.contenedor-producto-foody  {
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 0px 0px 2px 1px #C6C5C5;
+	clear: both;
+	width: 350px;
+	margin: 50px auto 0 ;
+
+	
+
+}
+
+
+.imagen-producto-foody {
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+
+
+.info-producto-foody {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+
+}
+
+
+.titulo-del-producto-foody {
+	font-size: 22px;
+	
+
+
+}
+
+.descripcion-producto-foody {
+	font-size: 12px;
+	
+}
+
+
+.listado-contenido-producto-foody {
+	padding-top: 10px;
+	padding-left: 40px;
+	color: gray;
+}
+
+.listado-contenido-producto-foody > ul {
+	font-size: 12px;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+.boton-ver-producto-foody {
+	text-align: center;
+	padding-top: 20px;
+	
+	padding-right: 10px;
+}
+
 
 
 
@@ -301,6 +363,8 @@ body {
 
 .informacion-extra-producto {
 	padding-top: 30px;
+	margin-bottom: 25px;
+	text-align: center;
 }
 
 .informacion-extra-producto > p {
