@@ -1,21 +1,15 @@
 * {
 	box-sizing: border-box;
 	font-family: helvetica;
-	margin:0;
+	margin: 0;
 	padding: 0;
-
-
 }
 
-	body {
-		background-color: #EBEBEB;
-	}
+body {
+	background-color: #EBEBEB;
+}
 
 
-
-
-
-/*  dispositivos grandes  */
 
 @media (min-width: 992px) {
 
@@ -75,8 +69,10 @@
 		width: 100%;
 	}
 
-
-
+	.contenedor-info-redes- {
+		width: 760px;
+		margin:0 auto 0;
+	}
 
 }
  
@@ -142,10 +138,15 @@
 
 
 
+	.info-size-md {
+		/* width: 100%; */
+	}
 
 
-
-
+	.cabecera-size-md {
+		
+		margin-left: 33%;
+	}
 
 
 } 
@@ -157,17 +158,6 @@
 @media (max-width: 767px) {
 
 
-
-	.cabecera-size-lg {
-		
-		margin-left: 10%;
-	}
-
-
-
-
-
-/* Agrupacion de menu flotante de funciones: llamar, wapp, cita y guardar   */
 	.col-ch-3 {
 		float: left;
 		width: 25%;
@@ -183,12 +173,17 @@
 		width: 50%;
 	}
 
-
 	.col-ch-12 {
-		float: left;
 		width: 100%;
 	}
+
+
 }
+
+
+
+
+
 
 
 
@@ -201,214 +196,195 @@
 
 
 
-
-
-.contenedor {
-	height: 100px;
-	width: 100%;
-
+.header {
 	background-color: white;
-
+	width: 100%;
+	height: 80px;
 	position: fixed;
 	z-index: 100;
 	box-shadow: 0px 0px 2px 1px #C6C5C5;
 
-
-
-	
-
 }
 
-.cabecera {
-	position: relative;
-	width: 270px;
-
-	margin: 0 auto 0;
-
-
-	
-}
-
-.cabecera > img {
+.info-contenedor > a {
 	float: left;
-	margin-right: 20px;
-	margin-top: 20px;
-	border-radius: 100%;
-
-
-
+	margin-top: 16px;
+	margin-left: 20px;
 }
 
-.cabecera > p {
-	font-size: 8px;
-	
-	
-	
-	margin-left: 80px;
-
-}
-
-.cabecera >h4 {
+.info-contenedor > p {
 	float: left;
+	margin-top: 33px;
+	margin-left: 20px;
+}
+
+.titulo-productos {
+	text-align: center;
+	padding-top: 110px;
+	padding-bottom: 20px;
+
+}
+
+
+.contenedor-producto  {
+	background-color: white;
+	border-radius: 20px;
+	margin: 10px;
 	margin-top: 30px;
+	box-shadow: 0px 0px 2px 1px #C6C5C5;
 	
-
-} 
-
-.calificacion {
-	margin:0;
-	padding: 0;
-	
-	position: absolute;
-	left: 80px;
-	top: 60px;
-	
-
-
 
 }
 
-.calificacion > p {
-	font-size: 12px;
 
-}
-
-.calificacion a:link {
-	color: black;
-	font-size: 10px;
+.imagen-producto {
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 20px;
 }
 
 
-
-
-.info-contenedor {
-
-	padding-top: 100px;
-
-}
-
-.info {
-	
-	position: relative;
+.info-producto {
+	padding-bottom: 20px;
+	padding-top: 20px;
 	text-align: center;
 
+}
 
 
-
+.titulo-del-producto {
+	font-size: 22px;
 	
-} 
-
-.info > img {
-	margin-top: 40px;
-	border-radius: 100%;
 
 
 }
 
-
-.info > p {
+.descripcion-producto {
 	font-size: 12px;
-	margin-bottom: 10px;
-	
-	
-	
 	
 }
 
-.calificacion-asesor  a:link {
-	color: black;
+
+.listado-contenido-producto {
+	padding-top: 10px;
+	padding-left: 40px;
+	color: gray;
+}
+
+.listado-contenido-producto > ul {
 	font-size: 12px;
-
-} 
-
-.calificacion-asesor {
-	margin-bottom: 20px;
+	padding-left: 30px;
+	padding-top: 10px;
 }
 
-.descripcion-asesor > p {
-	margin-bottom: 30px;
-	padding-top: 30px;
-
-
-}
-
-
-
-.cont-prop-1 {
-	
-	width: 50%;
-	float: left;
-	position: relative;
-		margin-bottom: 15px;
-}
-
-.cont-prop-2 {
-
-	width: 50%;
-	float: left;
-	margin-bottom: 15px;
-}
-
-
-.prop-venta {
-	background-color: white;
-	width: 180px;
-	height: 180px;
-	border-radius: 30px;
-	float: right;
-	margin-right: 10px;
-	box-shadow: 0px 0px 2px 1px #C6C5C5;
-	
-	
-}
-
-.prop-venta-link {
-	margin-top: 20px;
-}
-
-.prop-venta-link > a {
-	text-decoration: none;
-	color: black;
-
-}
-
-.titulo-producto {
-	margin-top: 5px;
-}
-
-.prop-venta-link > p {
-	font-size: 12px;
-	padding-top: 5px;
-}
-
-.prop-renta {
-	background-color: white;
-	width: 180px;
-	height: 180px;
-	border-radius: 30px;
-	margin-left: 10px;
-	box-shadow: 0px 0px 2px 1px #C6C5C5;
-	
-}
-
-.prop-renta-link {
+.boton-ver-producto {
+	text-align: center;
 	padding-top: 20px;
+	
+	padding-right: 10px;
 }
 
 
-.prop-renta-link > a {
-	text-decoration: none;
-	color: black;
+
+
+
+
+/* Foody */
+
+.contenedor-producto-foody  {
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 0px 0px 2px 1px #C6C5C5;
+	clear: both;
+	width: 350px;
+	margin: 50px auto 0 ;
+
+	
+
 }
 
-.prop-renta-link > p {
+
+.imagen-producto-foody {
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+
+
+.info-producto-foody {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+
+}
+
+
+.titulo-del-producto-foody {
+	font-size: 22px;
+	
+
+
+}
+
+.descripcion-producto-foody {
 	font-size: 12px;
-	padding-top: 5px;
+	
+}
+
+
+.listado-contenido-producto-foody {
+	padding-top: 10px;
+	padding-left: 40px;
+	color: gray;
+}
+
+.listado-contenido-producto-foody > ul {
+	font-size: 12px;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+.boton-ver-producto-foody {
+	text-align: center;
+	padding-top: 20px;
+	
+	padding-right: 10px;
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+.informacion-extra-producto {
+	padding-top: 30px;
+	text-align: center;
+	width: 380px;
+	margin: 0 auto 25px;
+}
+
+.informacion-extra-producto > p {
+	clear: both;
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+
+.info-extra-1 {
+	padding: 10px;
+}
+
+.info-extra-1 >h3 {
+	padding-bottom: 10px;
+}
 
 
 
@@ -422,6 +398,9 @@
 
 .contenedor-info-redes- {
 	clear: both;
+	padding-top: 30px;
+
+	
 
 }
 
@@ -621,53 +600,13 @@
 	margin-top: 24px;
 	margin-right: 25px;
 
-}	
-
-
-
-/* Compartir con QR  */
-
-.link-compartir-qr {
-	width: 380px;
-	height: 70px;
-	background-color: white;
-	border-radius: 20px; 
-	margin: 10px auto 0;
-	
 }
 
-.usuario-compartir-qr > a {
-	float: left;
-	color: black;
-	text-decoration: none;
-	margin-top: 27px;
-	margin-left: 5px;
-
-}
-
-.link-compartir-qr > a {
-	float: left;
-	margin-top: 10px;
-	margin-left: 15px;
-	color: black;
-	text-decoration: none;
-
-}	
 
 
 
-.ver-compartir-qr   {
-	float: right;
-	margin-top: 24px;
-	margin-right: 20px;
-	/* margin-bottom: 25px;  Revisar el margin afecta al pie de pagina  */
-	
-}
 
-.compartir-qr {
-	margin-bottom: 30px;
-	clear: both;
-}
+
 
 
 
@@ -691,8 +630,9 @@
 	position: fixed;
 	z-index: 100;
 	top: 89%;
-	box-shadow: 0px 0px 2px 1px #C6C5C5;
+	box-shadow: 2px 2px 2px 2px gray;
 	padding-top: 10px;
+	text-align: center;
 }
 
 
@@ -720,8 +660,6 @@
 
 
 
-
-
 /* Pie de Página    */
 
 
@@ -729,8 +667,8 @@
 	background-color: #FDFDFD ;
 	clear: both;
 	height: 230px;
-	margin-top: 30px;
-	box-shadow: 0px 0px 2px 1px #C6C5C5;
+	margin-top: 50px;
+	text-align: center;
 	
 
 
@@ -752,5 +690,3 @@
 	font-size: 12px;
 	padding-top: 15px;
 }
-
-
